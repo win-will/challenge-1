@@ -53,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* Main image settings */
 .hero {
     height: 800px;
     width: 100%;
@@ -90,7 +91,6 @@ p {
 }
 
 /* Consolidated all of the children of the benefits class into three classes to reduce the redundancy */
-
 .benefit-children {
     margin-bottom: 32px;
     color: #ffffff;
