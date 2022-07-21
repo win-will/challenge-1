@@ -32,10 +32,10 @@ THEN I find a concise, descriptive title
 
 ## Mock-up
 
-![alt text](https://github.com/win-will/challenge-1/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true)
+![Link to mock-up](https://github.com/win-will/challenge-1/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true)
 
 ## Links
 
-![alt text](https://win-will.github.io/challenge-1/)
+https://win-will.github.io/challenge-1/
 
 
