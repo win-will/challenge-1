@@ -36,6 +36,6 @@ THEN I find a concise, descriptive title
 
 ## Links
 
-https://win-will.github.io/challenge-1/
+![alt text](https://win-will.github.io/challenge-1/)
 
 
