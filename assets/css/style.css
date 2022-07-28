@@ -2,12 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* Moved color and font-family to Universal Settings */
-    color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* a and p selector attributes */
-    text-decoration: none;
-    font-size: 16px;
 }
 
 body {
@@ -18,39 +13,45 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+    color: #ffffff;
     
 }
 
-/* Changed font-size to fix header alignment */
 .header h1 {
     display: inline-block;
-    font-size: 36px;
+    font-size: 48px;
 }
 
-/* Added font-size */
+
 .header h1 .seo {
     color: #d9dcd6;
-    font-size: 36px;
 }
 
-/* Removed font-size to fix header alignment */
-/* Removed font-family because it is in the universal selector now */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Removed a and p selectors and added their attributes to universal selector */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
 
 /* Main image settings */
 .hero {
@@ -78,7 +79,6 @@ body {
     margin-left: 20px;
 }
 
-/* Removed font-family because it is in the universal selector now */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,12 +87,13 @@ body {
     width: 20%;
     height: 100%;
     background-color: #2589bd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Consolidated all of the children of the benefits class into three classes to reduce the redundancy */
-/* Removed color because it is in the universal selector now */
 .benefit-children {
     margin-bottom: 32px;
+    color: #ffffff;
 }
 
 /* Added font-size */
@@ -109,12 +110,13 @@ body {
 }
 
 /* Consolidated all of the children of the content class into three classes to reduce the redundancy */
-/* Removed color and font-family because they are in the universal selector now */
 .content-children {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
+    color:#ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .content-children img {
