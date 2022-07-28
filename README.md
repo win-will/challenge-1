@@ -1,4 +1,4 @@
-# Challenge Assignment 1
+# Refactor Horiseon web site
 
 ## Description
 
